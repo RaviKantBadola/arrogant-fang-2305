@@ -1,4 +1,8 @@
 
+import './App.css';
+import Product from './product/product';
+
+
 import logo from './logo.svg';
 import AdminNavbar from './Admin/AdminComponents/AdminNavbar';
 
@@ -8,16 +12,17 @@ import './App.css';
 // import Navbar from './Component/Navbar';
 
 
+
 function App() {
   return (
     <div className="App">
+
+
 
     {/* <Navbar/> */}
 
 
       <AdminNavbar />
-
-
 
     </div>
   );
