@@ -1,88 +1,42 @@
-import {
-    Box,
-    Flex,
-    Text,
-    Button,
-    Stack,
-    useColorModeValue,
-    useBreakpointValue,
-    useDisclosure,
-    Image,
-    Input,
-  } from '@chakra-ui/react';
+import React from 'react'
+import {Box, Button, Flex, Image, Input, Select} from "@chakra-ui/react"
+import { SlMagnifier  } from "react-icons/sl";
+import { VscAccount  } from "react-icons/vsc";
+import { BsCart3 } from "react-icons/bs";
+const Navber = () => {
+  return (
+         <Flex
+         border='1px' 
+         borderColor='red' 
+         w = {"80%"} h = {"70px"} 
+         m = "auto" 
+         justifyContent = "space-between" 
+         alignItems={"center"} >
+        <Box>
+          <Image w={"185px"} h={"69px"} src="https://i.postimg.cc/wjVc8Xj4/quick.jpg" alt="quickdeal" ></Image>
+        </Box>
+       
+         <Flex border='1px' borderColor='blue' w = {"35%"} h = "40px"   >
+         
+            <Select h={"35px"} w = {"35%"} fontSize="14px" border = "none" borderRadius={"0"} borderRight = "1px" borderColor={"gray"} placeholder='All Categories'>
+                   <option value='option1'>Option 1</option>
+                   <option value='option2'>Option 2</option>
+                   <option value='option3'>Option 3</option>
+            </Select> 
  
-  
-  export default function Navbar() {
-    // const { isOpen, onToggle } = useDisclosure();
-  
-    return (
-      <Box w = {"70%"} m={"auto"} pos="fixed"   left={"15%"} border='1px' borderColor='red.200' zIndex={"5"}  >
-        <Flex
-          bg={useColorModeValue('white', 'gray.800')}
-          color={useColorModeValue('gray.600', 'white')}
-          minH={'60px'}
-          py={{ base: 2 }}
-          px={{ base: 4 }}
-          borderBottom={1}
-          borderStyle={'solid'}
-          borderColor={useColorModeValue('gray.200', 'gray.900')}
-          align={'center'}>
-          <Flex
-            flex={{ base: 1, md: 'auto' }}
-            ml={{ base: -2 }}
-            display={{ base: 'flex', md: 'none' }}>
-           
-          </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-            <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
-              fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
-           <Image style={{width:"185px" , height:"60px"}} src = "https://i.postimg.cc/wjVc8Xj4/quick.jpg" ></Image>
-            </Text>
-  
-           
-          </Flex>
+            <Input w = {"65%"} fontSize="14px" border = "none" placeholder='Search in All India'  ></Input> 
+            <Flex w = {"40px"} h= {"40px"}  alignItems={'center'} justifyContent= {"center"} bg= {"#008BCF"} >
+              < SlMagnifier color='white' /></Flex>
+            </Flex>
+             <Flex justifyContent={"space-around"}    w = {"30%"} h = "40px" alignItems="center" >
+             <Flex  alignItems="center" ><BsCart3   /> <Button bg={"transparent"} w ={"15px"} >Cart</Button></Flex>
+             <Flex alignItems="center" > <VscAccount size={"23px"} /><Button bg={"transparent"} w = {"110px"} ml ={"3px"} >  Login/Register</Button> </Flex>
+              <Button  w = {"110px"} h = {"40px"} bg = "#FCEC52" >Post Free Ad</Button>
+                 
+                  
+                </Flex>
+         </Flex>
+  ) 
+}
 
-        
-
-          <Input w = {"70px"} placeholder='Search in all india' ></Input>
-  
-          <Stack
-            flex={{ base: 1, md: 0 }}
-            justify={'flex-end'}
-            direction={'row'}
-            spacing={6}>
-            <Button 
-             
-              as={'a'}
-              fontSize={'sm'}
-              fontWeight={400}
-              variant={'link'}
-              href={'#'}>
-              Sign In
-            </Button>
-            <Button
-              as={'a'}
-              display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={600}
-              color={'black'}
-              bg={ "#FCEC52"}
-              href={'#'}
-               >
-              Post free ad
-            </Button>
-          </Stack>
-        </Flex>
-  
-      
-      </Box>
-    );
-  }
-  
-  
-  
- 
- 
-  
+export default Navber
