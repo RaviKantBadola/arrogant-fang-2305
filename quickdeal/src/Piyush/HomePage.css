@@ -1,5 +1,5 @@
 #P_HompageContainer{
-  max-width: 75%;
+  max-width: 80%;
   margin: auto;
   border: 1px solid blue;
 }
@@ -14,45 +14,113 @@
   margin-bottom: 20px;
 }
 
+/* swiper */
 
-.P_slider_div{
-  border: 1px solid green;
-  display: block;
-  /* overflow: hidden; */
-  width: 100%;
-  max-width: 1024px;
+/* .carousel-container{
+  
+  /* width: 100%; */
+    /* text-align: center; */
+
+    /* position: relative; */
+   
+/*     
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; */
+/* } */
+/* .P_image_div{
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 50%;
+} */
+
+/* .P_slider_div_array{
+border: 1px solid green;
+width: 10%;
+margin-left:10%;
+
 }
-.P_slider{
-  border: 1px solid brown;
-  /* display: block; */
-  overflow: hidden;
-}
-.P_slider_div_array{
-  border: 1px solid blueviolet;
-  float: left;
-}
+
 .p_image{
-  width: 90px;
-    height: 90px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-color: #eef9ff;
     display: block;
+} */
+ /* li{
+  width: 90% !important;
+ }
+.react-multi-carousel-item {
+  border: 1px solid;
+  
+
+}  */
+
+
+
+/* swiper */
+
+
+
+
+
+.P_Title_2{
+  font-size: 30px;
+  color: #333;
+  text-align: center;
+  padding: 0;
+  margin: 6px 0 18px;
+  
+  height: 33px;
+  
+}
+.P_card{
+  gap: 30px;
+  display:flex;
+ 
 }
 
-.P_nav_btn {
-  color: black;
-  transition: color 0.3s ease;
+.P_card a {
+  text-decoration: none;
+  
+    padding: 12px 0;
+    color: #666;
+    display: block;
+    font-size: 14px;
 }
-
-.P_nav_btn::before,
-.P_nav_btn::after {
-  font-size: 35px;
+.P_card ul{
+  
+  margin-top: -10px;
 }
-
-.P_btn_next {
-  right: 0;
+.P_card li {
+  
+  
+  list-style: none;
 }
+.p_img_div{
+  width: 388px;
+  height: 73;
+}
+.p_img{
+width: 100%;
+}
+.P_card i {
 
-.P_btn_prev {
-  left: 0;
+     float: right;
+    margin-top: -5px;
+    margin-right: 5px;
+
+  ;
+    color: #999;
+    font-size: 25px;
+   
+}
+.p_div_card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
+    border-radius: 3px;
+    height: 350px;
 }
