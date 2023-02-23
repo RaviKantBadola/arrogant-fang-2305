@@ -7,7 +7,7 @@ const ProductsSort = () => {
   return (
    <Wrapper>
     <div className='container grid grid-filter-column'>
-   <div style={{width:"200px",marginLeft:"500px",backgroundColor:"ffff",border:"1px solid"}}>
+   <div style={{width:"250px",backgroundColor:"ffff",height:"800px",boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"}}>
     <Filter/>
    </div>
    <section className='product-view--sort'>
@@ -25,9 +25,10 @@ const ProductsSort = () => {
 const Wrapper = styled.section`
     .grid-filter-column{
         grid-template-columns: 0.2fr 1fr;
-        width:"60%";
-        margin:auto;
+        width:"80%";
+        height: "100%";
         border: 1px solid red;
+        margin: auto;
     }
 `
 
