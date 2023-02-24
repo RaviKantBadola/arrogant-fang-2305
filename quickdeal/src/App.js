@@ -2,17 +2,11 @@
 import './App.css';
 
 import Products from './RaviComponent/Products';
-
 import Product from './product/product';
-n
-
-
 import logo from './logo.svg';
 import AdminNavbar from './Admin/AdminComponents/AdminNavbar';
 
 
-
-import './App.css';
 
 import HomePage from './Piyush/HomePage';
 
@@ -26,6 +20,8 @@ function App() {
     {/* <Navbar/> */}
       <AdminNavbar />
 
+    </div>
+    
     </div>
   );
 }
