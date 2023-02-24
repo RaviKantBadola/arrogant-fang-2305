@@ -1,5 +1,9 @@
 
 import './App.css';
+ 
+import Navbar from './Component/Navbar';
+import AllRoutes from './Route/AllRoutes';
+ 
 
 import Products from './RaviComponent/Products';
 import Product from './product/product';
@@ -14,21 +18,21 @@ function App() {
   return (
 
     <div className="App" style={{width:"80%",margin:"auto",height:"auto"}}>
- <Products/>
+  
 
-    <div className="App">
+    
+ 
 
-    <Product/>
-
-
-    {/* <Navbar/> */}
-      <AdminNavbar />
-
-    </div>
     
 
+
+     
+     
+
     </div>
-  );
+ 
+   
+  )
 }
 
 export default App;
