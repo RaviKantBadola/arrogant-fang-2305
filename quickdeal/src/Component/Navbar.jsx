@@ -3,6 +3,8 @@ import {Box, Button, Flex, Image, Input, Select} from "@chakra-ui/react"
 import { SlMagnifier  } from "react-icons/sl";
 import { VscAccount  } from "react-icons/vsc";
 import { BsCart3 } from "react-icons/bs";
+ 
+import LoginButton from './LoginButton';
 const Navber = () => {
   return (
          <Flex
@@ -11,7 +13,12 @@ const Navber = () => {
          w = {"80%"} h = {"70px"} 
          m = "auto" 
          justifyContent = "space-between" 
-         alignItems={"center"} >
+         alignItems={"center"}
+         position={"fixed"}
+         left = {"10%"}
+         zIndex = {"2"}
+        boxShadow = {"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+          >
         <Box>
           <Image w={"185px"} h={"69px"} src="https://i.postimg.cc/wjVc8Xj4/quick.jpg" alt="quickdeal" ></Image>
         </Box>
@@ -30,7 +37,7 @@ const Navber = () => {
             </Flex>
              <Flex justifyContent={"space-around"}    w = {"30%"} h = "40px" alignItems="center" >
              <Flex  alignItems="center" ><BsCart3   /> <Button bg={"transparent"} w ={"15px"} >Cart</Button></Flex>
-             <Flex alignItems="center" > <VscAccount size={"23px"} /><Button bg={"transparent"} w = {"110px"} ml ={"3px"} >  Login/Register</Button> </Flex>
+             <Flex alignItems="center" > <VscAccount size={"23px"} /><LoginButton/> </Flex>
               <Button  w = {"110px"} h = {"40px"} bg = "#FCEC52" >Post Free Ad</Button>
                  
                   
