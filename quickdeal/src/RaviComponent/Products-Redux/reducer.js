@@ -1,4 +1,4 @@
-import { GET_PRODUCT_SUCCESS, PRODUCT_FAILURE, PRODUCT_REQUEST } from "./actionType"
+import { GET_PRODUCT_DATA, PRODUCT_FAILURE, PRODUCT_REQUEST } from "./actionType"
 
 
 const initialState={
@@ -13,7 +13,7 @@ switch(type){
         return {...state,isLoading:true}
     case PRODUCT_FAILURE:
         return {...state,isLoading:true,isError:true}
-    case GET_PRODUCT_SUCCESS:
+    case GET_PRODUCT_DATA:
         return {...state,isLoading:false,products:payload}
         
         default:

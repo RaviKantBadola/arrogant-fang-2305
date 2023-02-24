@@ -1,10 +1,10 @@
 
 
-import { GET_PRODUCT_SUCCESS, PRODUCT_FAILURE, PRODUCT_REQUEST } from "./actionType"
+import { GET_PRODUCT_DATA, PRODUCT_FAILURE, PRODUCT_REQUEST } from "./actionType"
 import axios from "axios"
 
 export const getProductSuccess=(payload)=>{
-return {type:GET_PRODUCT_SUCCESS,payload}
+return {type:GET_PRODUCT_DATA,payload}
 }
 
 export const productRequest=()=>{
@@ -22,6 +22,7 @@ export const getProduct=(param) =>(dispatch)=>{
     axios.get("https://different-bell-bottoms-fox.cyclic.app/quickdeal",param).then((res)=>{
      
     dispatch(getProductSuccess(res.data))
+    console.log(res.data)
     }).catch((err)=>{
         dispatch(productFailure())
     })
