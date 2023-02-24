@@ -17,11 +17,16 @@ function App() {
  <Products/>
 
     <div className="App">
+
+    <Product/>
+
+
     {/* <Navbar/> */}
       <AdminNavbar />
 
     </div>
     
+
     </div>
   );
 }

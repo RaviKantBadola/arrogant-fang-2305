@@ -41,18 +41,19 @@
   border: 2px solid red;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 30px;
-  gap: 15px;
+  gap: 0px;
 }
 .imagebox{
-  
+  width: 80%;
   border: 2px solid red;
 }
 .image{
   width: 100%;
 }
 .detail{
+  width: 80%;
   border: 2px solid red;
 }
