@@ -1,0 +1,58 @@
+#P_HompageContainer{
+  max-width: 75%;
+  margin: auto;
+  border: 1px solid blue;
+}
+.P_div_Title{
+ 
+  border: 1px solid red;
+}
+
+.P_Title{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
+.P_slider_div{
+  border: 1px solid green;
+  display: block;
+  /* overflow: hidden; */
+  width: 100%;
+  max-width: 1024px;
+}
+.P_slider{
+  border: 1px solid brown;
+  /* display: block; */
+  overflow: hidden;
+}
+.P_slider_div_array{
+  border: 1px solid blueviolet;
+  float: left;
+}
+.p_image{
+  width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #eef9ff;
+    display: block;
+}
+
+.P_nav_btn {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.P_nav_btn::before,
+.P_nav_btn::after {
+  font-size: 35px;
+}
+
+.P_btn_next {
+  right: 0;
+}
+
+.P_btn_prev {
+  left: 0;
+}
