@@ -42,6 +42,10 @@ const Navber = () => {
                  
                   
                 </Flex>
+
+
+
+                
          </Flex>
   ) 
 }
