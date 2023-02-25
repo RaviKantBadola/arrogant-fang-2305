@@ -1,7 +1,7 @@
 .detailpage {
-    border: 2px solid red;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* border: 2px solid red; */
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
     width: 80%;
     margin: auto;
     margin-top: 30px;
@@ -9,7 +9,7 @@
 
 .imagebox {
     width: 80%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .image {
@@ -18,45 +18,36 @@
 
 .detail {
     width: 80%;
-    border: 2px solid red;
+
+    /* border: 2px solid red; */
 }
 
 .imgcontact {
-    width: 80%;
-    border: 2px solid red;
+    width: 60%;
+    /* border: 2px solid red; */
     display: flex;
     margin: auto;
     margin-top: 20px;
 
 }
 
+.tac {
+    font: bold;
+    margin-top: 10px;
+}
+
 .twobuttonadd {
-    width: 80%;
-    border: 2px solid red;
-    display: flex;
+    width: 90%;
+    /* border: 2px solid rgb(23, 23, 202); */
     justify-content: space-between;
     margin: auto;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
-.twobuttonadd>button {
-    width: 40%;
-        font-size: 22px;
+.enterdetail {
     font: bold;
-    border-radius: 5%;
-    text-align: center;
-    cursor: pointer;
-}
-.debut{
-    background-color: rgb(50, 102, 204);
-}
-.debut:hover {
-    background-color: rgb(129, 120, 130);
-}
-
-.carbut:hover {
-    background-color: rgb(32, 32, 137);
+    font-size: 20px;
 }
 
 .carbut {
@@ -64,12 +55,211 @@
 }
 
 .imgcontact>img {
-    width: 20%;
+    width: 30%;
 }
-.formfill{
-    width:90%;
-    border: 2px solid red;
+
+.formfill {
+    width: 100%;
+    /* border: 2px solid red; */
     display: grid;
     margin: auto;
     gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.formfill>input {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.amt {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
+
+.amt>h2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: larger;
+    font: bold;
+}
+
+.btnsub {
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    background-color: rgb(64, 64, 223);
+    text-align: center;
+    color: white;
+    font-size: large;
+
+}
+
+.twodivdetail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    gap: 10px;
+}
+
+.boxone {
+    display: flex;
+    margin-left: 5%;
+    /* border: 2px solid red;  */
+
+}
+
+.model>p {
+    color: rgb(79, 79, 81);
+    font-size: 18px;
+    text-align: start;
+}
+
+.modeldetail {
+    margin-left: 7%;
+}
+
+.modeldetail>h2 {
+    color: rgb(4, 4, 4);
+    font-size: 18px;
+    text-align: start;
+}
+
+.mainbox {
+    text-align: start;
+    margin-top: 20px;
+    color: black;
+    font: bold;
+    font-size: 25px;
+}
+
+.secmainbox {
+    text-align: start;
+    margin-top: 40px;
+    color: black;
+    font: bold;
+    font-size: 25px;
+    /* border: 2px solid red;    */
+}
+
+.secmainbox>p {
+    /* border: 2px solid red;   */
+    width: 80%;
+    text-align: start;
+    color: rgb(59, 59, 59);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.threemainbox {
+    text-align: start;
+    margin-top: 30px;
+    /* border: 2px solid red;  */
+    color: black;
+    font: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.formdetail {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* border: 2px solid rgb(67, 42, 42); */
+    width: 90%;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 20px;
+    gap: 10px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.formdetail>input {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.btnsub {
+    background-color: rgb(40, 40, 197);
+    color: white;
+    font: bolder;
+    font-size: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.chathere {
+    border: 1px solid gray;
+    margin-top: 10px;
+    height: 100px;
+}
+.simbt{
+    text-align: start;
+    color: black;
+    font: bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.fourdetailbox {
+    display: grid;
+    text-align: start;
+    grid-template-columns: repeat(1, 1fr);
+    /* border: 2px solid red;  */
+    margin-top: 30px;
+
+    font: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.arroall {
+    color: rgb(72, 72, 72);
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.bottomallcard{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+}
+.boxonebot{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+.imgherebt>p{
+    text-align: start;
+   margin-top: 15px;
+}
+.imgherebt>h1{
+    text-align: start;
+    font-size: 20px;
+    font: bold;
+    color: black;
+    margin-top: 15px;
+ }
+ .imgherebt:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1px solid blue;
+    padding: 5%;
+ }
+.boxtwibot{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
+.boxtwoesecbot{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
