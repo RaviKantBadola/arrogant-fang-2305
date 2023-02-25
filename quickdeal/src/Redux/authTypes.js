@@ -1,0 +1,5 @@
+export const REQUEST = "REQUEST"
+export const FAILURE  = "FAILURE"
+export const POST_AUTH_SUCCESS = "POST_AUTH_SUCCESS"
+export const GET_AUTH_SUCCESS = "GET_AUTH_SUCCESS"
+export const ISAUTH = "ISAUTH"
