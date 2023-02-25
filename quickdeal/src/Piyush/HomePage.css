@@ -1,79 +1,36 @@
 #P_HompageContainer{
   max-width: 80%;
   margin: auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .P_div_Title{
  
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .P_Title{
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
+  color: #333;
+  
+}
+body{
+  background-color: #f3f3f3;
 }
 
-/* swiper */
-
-/* .carousel-container{
-  
-  /* width: 100%; */
-    /* text-align: center; */
-
-    /* position: relative; */
-   
-/*     
-    border: 1px solid #e8e8e8;
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px; */
-/* } */
-/* .P_image_div{
-  border: 1px solid #f1f1f1;
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 50%;
-} */
-
-/* .P_slider_div_array{
-border: 1px solid green;
-width: 10%;
-margin-left:10%;
-
-}
-
-.p_image{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #eef9ff;
-    display: block;
-} */
- /* li{
-  width: 90% !important;
- }
-.react-multi-carousel-item {
-  border: 1px solid;
-  
-
-}  */
-
-
-
-/* swiper */
 
 
 
 
 
 .P_Title_2{
-  font-size: 30px;
+  font-size: 28px;
   color: #333;
   text-align: center;
   padding: 0;
   margin: 6px 0 18px;
-  
+  font-weight: 400;
   height: 33px;
   
 }
@@ -101,7 +58,7 @@ margin-left:10%;
   list-style: none;
 }
 .p_img_div{
-  width: 388px;
+  width: 385px;
   height: 73;
 }
 .p_img{
