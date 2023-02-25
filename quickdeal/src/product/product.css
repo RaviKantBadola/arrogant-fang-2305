@@ -1,0 +1,75 @@
+.detailpage {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.imagebox {
+    width: 80%;
+    border: 2px solid red;
+}
+
+.image {
+    width: 100%;
+}
+
+.detail {
+    width: 80%;
+    border: 2px solid red;
+}
+
+.imgcontact {
+    width: 80%;
+    border: 2px solid red;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.twobuttonadd {
+    width: 80%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.twobuttonadd>button {
+    width: 40%;
+        font-size: 22px;
+    font: bold;
+    border-radius: 5%;
+    text-align: center;
+    cursor: pointer;
+}
+.debut{
+    background-color: rgb(50, 102, 204);
+}
+.debut:hover {
+    background-color: rgb(129, 120, 130);
+}
+
+.carbut:hover {
+    background-color: rgb(32, 32, 137);
+}
+
+.carbut {
+    background-color: brown;
+}
+
+.imgcontact>img {
+    width: 20%;
+}
+.formfill{
+    width:90%;
+    border: 2px solid red;
+    display: grid;
+    margin: auto;
+    gap: 10px;
+}

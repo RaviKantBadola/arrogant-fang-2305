@@ -37,22 +37,3 @@
   }
 }
 
-.detailpage{
-  border: 2px solid red;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  width: 70%;
-  margin: auto;
-  margin-top: 30px;
-  gap: 15px;
-}
-.imagebox{
-  
-  border: 2px solid red;
-}
-.image{
-  width: 100%;
-}
-.detail{
-  border: 2px solid red;
-}
