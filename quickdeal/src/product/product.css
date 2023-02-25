@@ -222,6 +222,11 @@
     margin-top: 20px;
     
 }
+.arroall {
+    display: grid;
+        gap: 10px;
+      
+    }
 .bottomallcard{
     display: grid;
     grid-template-columns: repeat(1,1fr);
