@@ -8,8 +8,6 @@ import LoginButton from './LoginButton';
 const Navber = () => {
   return (
          <Flex
-         border='1px' 
-         borderColor='red' 
          w = {"80%"} h = {"70px"} 
          m = "auto" 
          justifyContent = "space-between" 
@@ -35,17 +33,11 @@ const Navber = () => {
             <Flex w = {"40px"} h= {"40px"}  alignItems={'center'} justifyContent= {"center"} bg= {"#008BCF"} >
               < SlMagnifier color='white' /></Flex>
             </Flex>
-             <Flex justifyContent={"space-around"}    w = {"30%"} h = "40px" alignItems="center" >
-             <Flex  alignItems="center" ><BsCart3   /> <Button bg={"transparent"} w ={"15px"} >Cart</Button></Flex>
-             <Flex alignItems="center" > <VscAccount size={"23px"} /><LoginButton/> </Flex>
-              <Button  w = {"110px"} h = {"40px"} bg = "#FCEC52" >Post Free Ad</Button>
-                 
-                  
-                </Flex>
-
-
-
-                
+             <Flex justifyContent={"space-between"}   w = {"30%"} h = "40px" alignItems="center" >
+             <Flex   alignItems="center" ><BsCart3   /> <Button bg={"transparent"} w ={"15px"} >Cart</Button></Flex>
+             <Flex   justifyContent={'space-between'} alignItems="center"   ><VscAccount size={"23px"}  /> <LoginButton/> </Flex>
+             <Button border= "1px solid sky" w = {"110px"} h = {"40px"} bg = "#FCEC52" >Post Free Ad</Button>
+             </Flex>
          </Flex>
   ) 
 }
