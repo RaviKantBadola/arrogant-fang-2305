@@ -231,10 +231,13 @@
   
 }
 .arroall {
+
 display: grid;
     gap: 10px;
   
 }
+
+
 
 .bottomallcard{
     display: grid;
