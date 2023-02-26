@@ -10,7 +10,7 @@ import Slider from './slider/slider'
 import Card from './slider2/card'
 import Card2 from './slider2/card2'
 import Card3 from './slider2/card3'
-
+import Navbar from "../Component/Navbar"
 
 
 const responsive = {
@@ -35,7 +35,9 @@ function HomePage() {
 
   return (
     <>
-      <div id="P_HompageContainer">
+    
+   
+      <div id="P_HompageContainer" >
         <div className='P_div_Title'>
           <h1 className='P_Title'> Most Popular Products</h1>
         </div>
@@ -175,22 +177,6 @@ function HomePage() {
 
         <Card2 />
         <Card3 />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       </div>
       <Footer />

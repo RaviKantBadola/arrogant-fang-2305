@@ -13,7 +13,7 @@ const responsive = {
 
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 6
+        items: 5
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -272,7 +272,7 @@ const Card = () => {
    
     return (
         <>
-            <Box display={"flex , block"} mt="20px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"} backgroundColor={"white"}  height="min-content" h="406px" >
+            <Box display={"flex , block"} mt="20px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"} backgroundColor={"white"}  height="min-content" h="406px" w="100%" >
 
                 <Flex textAlign={"center"} justifyContent={'space-between'} pl="10px" h="40px">
 
@@ -289,7 +289,7 @@ const Card = () => {
 
 
                 {/* caroual start */}
-                <Box w={{ base: '60%', md: '55%', lg: '70%' }} width={"100%"} height="310px" margin="auto " mt="10px"  >
+                <Box w={{ base: '100%', md: '100%', lg: '100%' }} width={"100%"} height="310px" margin="auto " mt="10px"   >
                     <Carousel responsive={responsive}
                         swipeable={false}
                         draggable={false}
@@ -300,11 +300,12 @@ const Card = () => {
                         dotListClass="custom-dot-list-style"
                         itemClass="carousel-item"
                         containerClass="carousel-container"
+                        width="100%"
                     >
                         {
                             data.map(item => (
 
-                                <Box alignItems="left" textAlign={"left"} backgroundColor={"white"} overflow="hidden" borderRadius={"3px"} border=" 1px solid #e8e8e8" w="256px" >
+                                <Box alignItems="left" textAlign={"left"} backgroundColor={"white"} overflow="hidden" borderRadius={"3px"} border=" 1px solid #e8e8e8" w="256px"  >
                                      <div className="p_image_div_card">
                                      <Image src={item.image} h="200px" w="80%" marginLeft={"25px"} alt="" />
                                      </div>

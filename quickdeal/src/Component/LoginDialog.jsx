@@ -44,7 +44,7 @@ const accountinitialvalues={
       const [formData,setFormData] = useState(obj)
       const {email,password} = formData;      
       const dispatch = useDispatch()
-      const {data, isAuth} = useSelector((store)=> {return {   data : store.userData , isAuth :store.isAuth  }})
+      const {data, isAuth} = useSelector((store)=> {return {   data : store.reducer.userData , isAuth :store.reducer.isAuth  }})
       
       const handleSelectChange = (e)=>{
                if(e.target.value == "profile"){
@@ -66,7 +66,7 @@ const accountinitialvalues={
    useEffect(()=>{
     getData(formData)
    },[])
-       
+      
     const handleSubmit = (event)=>{
       event.preventDefault()
       if(formData.email == "" || formData.password == "" ){
@@ -82,9 +82,11 @@ const accountinitialvalues={
            if(data[i].email==formData.email && data[i].password == formData.password ){
                   dispatch(actionIsAuth())
                   setUserName(data[i])
+                 flag=true
                   break
            }
        }
+    
            if(flag == false){
             console.log("no user found");
              return  <Alert status='error'>
@@ -109,10 +111,10 @@ const handleClose=()=>{
  
     return (
       <>
-        {isAuth ?  <select onChange={handleSelectChange}  style={{width:"150px" , background: "transparent"}} >
+        {isAuth ?  <select onChange={handleSelectChange}  style={{width:"150px" , background: "white",color:"black"}} >
           <option>{userName.firstname}</option>
           <option value="profile" >Profile</option>
-          <option value ="logout"  >Logout</option>
+          <option value ="logout" >Logout</option>
         </select> : <p onClick={onOpen}>Login/Register</p>}
   
         <Modal isOpen={isOpen}  size= "xxl"   onClose={handleClose} >

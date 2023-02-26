@@ -1,14 +1,34 @@
 import React from "react";
 import "./product.css"
 import { ArrowForwardIcon, ArrowRightIcon } from "@chakra-ui/icons"
+import Footer from "../Piyush/Footer/Footer";
+
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { Link, useParams } from 'react-router-dom';
+import { getSingleProduct } from '../RaviComponent/Products-Redux/action';
+
+
+
 function Product() {
+
+
+
+    const { id } = useParams();
+  
+    const product = useSelector((store) => store.product.products);
+    const dispatch = useDispatch();
+    useEffect(() => {
+     dispatch(getSingleProduct(id))
+
+    },[]);
     return (
 
         <>
-            <div className="detailpage">
+            <div className="detailpage" style={{paddingTop:"90px"}}>
 
                 <div className="imagebox">
-                    <img className="image" src="https://rukminim1.flixcart.com/image/832/832/xif0q/shirt/t/a/z/m-wmsh0516-wrogn-original-imaghyrtm6acru8r.jpeg?q=70" alt="" />
+                    <img className="image" src={product.image} alt="" />
                     <div className="mainbox">
                         Ad Details
                         <div className="twodivdetail">
@@ -21,8 +41,8 @@ function Product() {
                                     <p>Invoice</p>
                                 </div>
                                 <div className="modeldetail">
-                                    <h2>364371221</h2>
-                                    <h2>Redmi Go</h2>
+                                    <h2>{ Math.floor((Math.random() * 5) + 1)}</h2>
+                                    <h2>{product.category}</h2>
                                     <h2>Excellent</h2>
                                     <h2>2020</h2>
                                     <h2>Not Available</h2>
@@ -34,15 +54,15 @@ function Product() {
                                     <p>Brand Name</p>
                                     <p>Location</p>
                                     <p>Condition</p>
-                                    <p>Also Includes</p>
+                                    <p>Color</p>
                                     <p>Seller Type</p>
 
                                 </div>
                                 <div className="modeldetail">
-                                    <h2>Xiaomi</h2>
-                                    <h2>Xiaomi</h2>
+                                    <h2>{product.title}</h2>
+                                    <h2>{product.location}</h2>
                                     <h2>New</h2>
-                                    <h2>Charger,Data Cable</h2>
+                                    <h2>{product.color||"NA"}</h2>
                                     <h2>Individual</h2>
                                 </div>
                             </div>
@@ -51,7 +71,7 @@ function Product() {
 
                     <div className="secmainbox">
                         Description
-                        <p>Description write herehkjdlkjgmlh;lgjh   ghjukjjhk</p>
+                        <p>{product.desc}</p>
                     </div>
 
                     <div className="fourdetailbox">
@@ -68,20 +88,28 @@ function Product() {
 
                 <div className="detail">
                     <div className="twobuttonadd">
-                        <h1 className="enterdetail">Enter your Details </h1>
-                        <form className="formfill">
-                            <input type="text" placeholder="Enter Your Email" />
-                            <input type="text" placeholder="Full Name" />
-                            <input type="text" placeholder="Contact Number" />
-                            <input type="text" placeholder="Departure City" />
-                            <input type="date" />
-                        </form>
+                        
+                    <form action='https://getform.io/f/ec87ae49-d284-4689-b02f-687b096f66db'
+                     method='POST' className="formfill">
+                        <h1 className="enterdetail">Enter Your Details </h1>
+                        
+                            <input type="text" name="emaill" placeholder="Enter Your Email" required/>
+                            <input type="text" name="fullnamee" placeholder="Full Name" required/>
+                            <input type="text" name="eeeeeeee" placeholder="Contact Number" required/>
+                            <input type="text" name="cityf" placeholder="Departure City" required/>
+                            <input type="date" name="dateee" required/>
+                        
                         <div className="amt">
                             <h2>Amount</h2>
-                            <h2>Rs.00000</h2>
+                            <h2>{product.price}</h2>
                         </div>
                         <p className="tac">Tax and discount are calculated at checkout </p>
-                        <button className="btnsubtop" type="submit" >Next <ArrowForwardIcon></ArrowForwardIcon></button>
+                       
+                            <button className="btnsubtop" type="submit" >Pay Now</button>
+
+                        
+    
+                      </form>
                     </div>
                     <div className="imgcontact">
                         <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-get-all-details-2x.png" alt="" />
@@ -186,6 +214,7 @@ function Product() {
                 </div>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }

@@ -11,81 +11,82 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
+import { Link } from 'react-router-dom';
 let sliderArrary = [
     {
         img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
         title: "All Furnitures",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/all_electonics_desktop.png",
         title: "All Electronics",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/sofa_sets_desktop.png",
         title: "Sofa Sets",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/bed.png",
         title: "Bed Sets",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/Wardrobes_desktop.png",
         title: "Wardrobes",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/led-tv.png",
         title: "TVs",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/laptops.png",
         title: "Laptops",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/electronics/refrigerator.png",
         title: "Refrigerators",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/Recliners_desktop.png",
         title: "Recliners",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/dining-tables.png",
         title: "Dining Tables",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/office-furnitures.png",
         title: "Office Furnitures",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/electronics/washing-machine.png",
         title: "Washing Machine",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/electronics/air-conditioner.png",
         title: "Air Conditioner",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/certified_landing_page/electronics/speakers.png",
         title: "Speakers",
-        link: "link",
+        link: "/products",
     },
     {
         img: "https://teja10.kuikr.com/escrow/assets/image/assured_landing_page/Gaming_Consoles_desktop.png",
         title: "Gaming  Consoles",
-        link: "link",
+        link: "/products",
     }
 ]
 function Slider() {
@@ -108,13 +109,14 @@ function Slider() {
 {sliderArrary.map((el) => {
                     return (
                            
-                         <SwiperSlide>                 
-                                <a href={el.link}>
+                         <SwiperSlide >                 
+                             <Link to="/products">
+                           
                             <div className='P_image_div'>  <div className='p_image'>  <img src={el.img} /></div></div>
                               
                             <p style={{marginTop:"0px",fontWeight:"600"}}>{el.title}</p>
-                            </a>
-                            
+                         
+                            </Link>
                             </SwiperSlide>
                     )
                 })}
