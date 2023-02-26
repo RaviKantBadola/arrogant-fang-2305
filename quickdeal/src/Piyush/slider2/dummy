@@ -1,0 +1,298 @@
+let sliderArrary = [
+    {
+        img: "https://teja10.kuikr.com/i4/20230225/iPad-Pro-11-inch-256GB-in-excellent-condition-2nd-Generation-VB201705171774173-ak_LWBP2135478111-1677264187.jpeg",
+        title: "title",
+        link: "link",
+
+        price: 2000
+    },
+    {
+        img: "https://teja10.kuikr.com/i6/20230224/Excellently-conditioned-Samsung-Galaxy-S20-FE-5G-SM-G781W-128GB-Black-comes-unlocked-with-full-accessories-and-warranty-VB201705171774173-ak_LWBP1769123915-1677260315.jpeg",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja10.kuikr.com/i6/20230224/Original-OnePlus-9-Pro-12GB-RAM-with-full-accessories-and-warranty-in-box-VB201705171774173-ak_WBP2007643868-1677259435.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    },
+    {
+        img: "https://teja9.kuikr.com/escrow/assets/image/certified_landing_page/other-furnitures.png",
+        title: "title",
+        link: "link",
+        price: 2000
+    }
+]
+
+  // <>
+        //     <div className='P_slider2'>
+        //         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}><div style={{ border: "1px solid red", padding: "10px" }}>Mobile & Tablets</div>
+        //             <div style={{ border: "1px solid red", textAlign: "center", alignItems: "center" }}>
+        //                 <a href="" style={{ marginTop: "-25px" }}>View All Results   <i style={{
+        //                     border: "1px solid red", color: "blue",
+        //                     fontSize: "20px",
+        //                     marginTop: "20px"
+        //                 }}><BiChevronRight /></i></a>
+        //             </div>
+        //         </div>
+        //         <Swiper
+
+        //             spaceBetween={72}
+        //             freeMode={true}
+        //             slidesPerView={7}
+        //             cssMode={true}
+        //             navigation={true}
+        //             pagination={true}
+        //             mousewheel={true}
+        //             keyboard={true}
+        //             modules={[Navigation, Mousewheel, Keyboard]}
+        //             className="mySwiper2"
+        //         >
+
+        //             {sliderArrary.map((el) => {
+        //                 return (
+
+        //                     <SwiperSlide>
+        //                         <a href={el.link}>
+        //                             <div className='P_image_div_2'> 
+        //                              <div className='p_image'>  <img src={el.img} />
+        //                              </div>
+        //                              </div>
+        //                              <div>
+        //                              <p>{el.title}</p>
+        //                             <p>{el.price}</p>
+        //                             <button>View</button>
+        //                              </div>
+
+
+
+                                  
+        //                         </a>
+
+        //                     </SwiperSlide>
+        //                 )
+        //             })}
+
+        //         </Swiper>
+        //     </div>
+
+        // </>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .mySwiper{
+    
+    width:100%;
+    margin-top: 10px;
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+
+.swiper-wrapper {
+    /* height: 40% !important; */
+    width: 88% !important;
+    margin-left: 20px !important;
+    margin: auto !important;
+}
+  .swiper-slide {
+    width: 11% !important;
+    bottom: 1px solid red;
+    text-align: center;
+    font-size: 14px;
+    background: #fff;
+    padding-top: 20px !important;
+    /* padding-left: 20px !important; */
+    /* padding-right: 50px !important; */
+     /* Center slide text vertically */ 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ 
+    } 
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+
+  .P_image_div_2{
+    border: 1px solid red;
+   
+    width: 250px;
+    height: 195px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+    background: #f5f5f5;
+    display: block;
+    /* border: 1px solid #f1f1f1;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%; */
+  } */
+  
+  .P_slider_div_array{
+  border: 1px solid green;
+  width: 10%;
+  margin-left:10%;
+  
+  }
+  
+  .p_image{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: #eef9ff;
+      display: block;
+  } 
+
+ .swiper-button-next{
+    /* background-color: #ffffff !important; */
+    border: 1px solid #5b5e7a;
+    border-radius: 100% !important;
+    color: #9b9c9b !important;
+    width: 35px !important;
+    height: 35px !important;
+    opacity: 1 !important;
+   
+    border-color:darkgray!important ;
+    margin: -22px 20px 0px !important;
+    /*  */
+ }
+ .swiper-button-prev{
+  /* background-color: #ffffff !important; */
+  border: 1px solid #5b5e7a;
+  border-radius: 100% !important;
+  color: #9b9c9b !important;
+  width: 35px !important;
+  height: 35px !important;
+  opacity: 1 !important;
+  border-color:darkgray !important ;
+  margin: -22px 20px 0px !important;
+ } 
+ :root {
+  --swiper-navigation-size: 12px !important;
+}
+
+.P_slider2{
+    border:1px solid red;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Box width={"15%"} paddingTop={"65px"} style={{marginLeft:"auto",marginRight:"auto"}}>
+                <Text paddingTop={{base:"120px", md:"120px", lg:"70px"}} fontSize={{ base: '10px', md: '20px', lg: '30px' }}> Fashion Top Deals</Text>
+
+                <WrapItem mt="20px"> 
+                    <Button  fontSize={{ base: '6px', md: '9px', lg: '12px' }} m={"auto"} colorScheme='messenger'>
+                        {/* <NavLink to='./products/fashion'>VIEW ALL </NavLink> */}
+                    //     </Button>
+                    //     </WrapItem>
+                    //     <img  pt="15px" src="https://rukminim1.flixcart.com/fk-p-flap/278/278/image/31d46a8fd93eeedd.jpg?q=90" alt="fg" />
+        
+                    // </Box>
+   <Box  width={"15%"}  style={{marginLeft:"2000",marginRight:"auto"}}>
+    <img src="https://rukminim1.flixcart.com/fk-p-flap/464/708/image/fca25d421602bfb1.jpeg?q=70"  alt="ad" style={{width:217}}/>
+   </Box>

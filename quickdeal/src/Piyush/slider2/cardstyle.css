@@ -1,0 +1,47 @@
+/* .carousel-container {
+border: 5px solid black;
+} */
+
+li.carousel-item{
+    /* overflow: hidden; */
+    /* padding: 10px; */
+    margin: 50px;
+    
+    margin-top: 0px;
+}
+
+.react-multiple-carousel__arrow {
+    top: 30%;
+    margin-left: "20px";
+    border: 1px solid black !important;
+     background:  transparent !important;
+}
+.react-multiple-carousel__arrow:hover{
+    
+     background: #008ff8  !important;
+}
+
+.react-multi-carousel-track{
+    /* border: 1px solid red; */
+    
+}
+
+. :hover{
+    border: 1px solid #008bcf;
+}
+
+button:hover{
+    background-color: #008bcf;
+       color: white;
+}
+
+.p_card_div{
+    
+    margin-left: 10px;
+    margin-bottom:10px ;
+}
+
+.p_image_div_card{
+   padding-bottom: 5%;
+    background-color:#f5f5f5; ;
+}
