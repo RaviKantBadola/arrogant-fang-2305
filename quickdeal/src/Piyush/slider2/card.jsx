@@ -272,7 +272,7 @@ const Card = () => {
    
     return (
         <>
-            <Box display={"flex"} mt="20px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"} backgroundColor={"white"} display={"block"} height="min-content" h="406px" >
+            <Box display={"flex , block"} mt="20px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"} backgroundColor={"white"}  height="min-content" h="406px" >
 
                 <Flex textAlign={"center"} justifyContent={'space-between'} pl="10px" h="40px">
 
