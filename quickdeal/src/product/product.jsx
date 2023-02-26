@@ -159,29 +159,29 @@ function Product() {
                     <h1 className="simbt">You may also like</h1>
                     <div className="boxtwibot">
                     <div className="imgherebt">
-                        <img src="https://teja9.kuikr.com/i4/20230223/Iphone-14-Pro-Max-CH-Concept-High-quality-4-64gb-real-with-volte-all-over-india-cod-available-VB201705171774173-ak_LWBP1150423605-1677124455_gv.jpeg" alt="" />
-                        <p>50% Holi discount Contact </p>
-                        <h1>Rs.2000</h1>
+                        <img src="https://teja9.kuikr.com/i5/20230222/Vu-43--full-HD-smart-tv-VB201705171774173-ak_LWBP1092795727-1677076207_gv.jpeg" alt="" />
+                        <p>Urgent sell Tv </p>
+                        <h1>Rs.20,000</h1>
                     </div>
                     <div className="imgherebt">
-                        <img src="https://teja9.kuikr.com/i4/20230223/Iphone-14-Pro-Max-CH-Concept-High-quality-4-64gb-real-with-volte-all-over-india-cod-available-VB201705171774173-ak_LWBP1150423605-1677124455_gv.jpeg" alt="" />
-                    <p>50% Holi discount Contact </p>
-                        <h1>Rs.2000</h1>
+                        <img src="https://teja9.kuikr.com/i5/20230222/Vu-43--full-HD-smart-tv-VB201705171774173-ak_LWBP1092795727-1677076207_gv.jpeg" alt="" />
+                        <p>Urgent sell Tv </p>
+                    <h1>Rs.20,000</h1>
                     </div>
                     <div className="imgherebt">
-                        <img src="https://teja9.kuikr.com/i4/20230223/Iphone-14-Pro-Max-CH-Concept-High-quality-4-64gb-real-with-volte-all-over-india-cod-available-VB201705171774173-ak_LWBP1150423605-1677124455_gv.jpeg" alt="" />
-                    <p>50% Holi discount Contact </p>
-                        <h1>Rs.2000</h1>
+                        <img src="https://teja9.kuikr.com/i5/20230222/Vu-43--full-HD-smart-tv-VB201705171774173-ak_LWBP1092795727-1677076207_gv.jpeg" alt="" />
+                    <p>Urgent sell Tv </p>
+                    <h1>Rs.20,000</h1>
                     </div >
                     <div className="imgherebt">
-                        <img src="https://teja9.kuikr.com/i4/20230223/Iphone-14-Pro-Max-CH-Concept-High-quality-4-64gb-real-with-volte-all-over-india-cod-available-VB201705171774173-ak_LWBP1150423605-1677124455_gv.jpeg" alt="" />
-                    <p>50% Holi discount Contact </p>
-                        <h1>Rs.2000</h1>
+                        <img src="https://teja9.kuikr.com/i5/20230222/Vu-43--full-HD-smart-tv-VB201705171774173-ak_LWBP1092795727-1677076207_gv.jpeg" alt="" />
+                        <p>Urgent sell Tv </p>
+                    <h1>Rs.20,000</h1>
                     </div>
                     <div className="imgherebt">
                         <img src="https://teja9.kuikr.com/i4/20230223/Iphone-14-Pro-Max-CH-Concept-High-quality-4-64gb-real-with-volte-all-over-india-cod-available-VB201705171774173-ak_LWBP1150423605-1677124455_gv.jpeg" alt="" />
-                    <p>50% Holi discount Contact</p>
-                        <h1>Rs.2000</h1>
+                        <p>Urgent sell Tv </p>
+                        <h1>Rs.20,000</h1>
                     </div>
                 </div>
                 </div>
