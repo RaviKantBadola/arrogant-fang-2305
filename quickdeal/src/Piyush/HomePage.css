@@ -1,58 +1,83 @@
 #P_HompageContainer{
-  max-width: 75%;
+  max-width: 80%;
   margin: auto;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 .P_div_Title{
  
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .P_Title{
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 20px;
+  color: #333;
+  
+}
+body{
+  background-color: #f3f3f3;
 }
 
 
-.P_slider_div{
-  border: 1px solid green;
-  display: block;
-  /* overflow: hidden; */
-  width: 100%;
-  max-width: 1024px;
+
+
+
+
+.P_Title_2{
+  font-size: 28px;
+  color: #333;
+  text-align: center;
+  padding: 0;
+  margin: 6px 0 18px;
+  font-weight: 400;
+  height: 33px;
+  
 }
-.P_slider{
-  border: 1px solid brown;
-  /* display: block; */
-  overflow: hidden;
+.P_card{
+  gap: 30px;
+  display:flex;
+ 
 }
-.P_slider_div_array{
-  border: 1px solid blueviolet;
-  float: left;
-}
-.p_image{
-  width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    background-color: #eef9ff;
+
+.P_card a {
+  text-decoration: none;
+  
+    padding: 12px 0;
+    color: #666;
     display: block;
+    font-size: 14px;
 }
-
-.P_nav_btn {
-  color: black;
-  transition: color 0.3s ease;
+.P_card ul{
+  
+  margin-top: -10px;
 }
-
-.P_nav_btn::before,
-.P_nav_btn::after {
-  font-size: 35px;
+.P_card li {
+  
+  
+  list-style: none;
 }
-
-.P_btn_next {
-  right: 0;
+.p_img_div{
+  width: 385px;
+  height: 73;
 }
+.p_img{
+width: 100%;
+}
+.P_card i {
 
-.P_btn_prev {
-  left: 0;
+     float: right;
+    margin-top: -5px;
+    margin-right: 5px;
+
+  ;
+    color: #999;
+    font-size: 25px;
+   
+}
+.p_div_card{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #fff;
+    border-radius: 3px;
+    height: 350px;
 }

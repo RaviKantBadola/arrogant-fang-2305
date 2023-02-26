@@ -11,7 +11,7 @@ const LoginButton = () => {
   return (
     <>
    
-      <Button bg={"transparent"} w = {"110px"} ml ={"3px"}>
+      <Button w = {"110px"} ml ={"3px"} bg={"transparent"}  >
         <LoginDialog/>
       </Button >
     

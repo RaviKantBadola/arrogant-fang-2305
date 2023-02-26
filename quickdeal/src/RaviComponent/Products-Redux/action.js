@@ -19,7 +19,7 @@ export const productFailure=()=>{
 
 export const getProduct=(param) =>(dispatch)=>{
     dispatch(productRequest())
-    axios.get("https://different-bell-bottoms-fox.cyclic.app/quickdeal",param).then((res)=>{
+    axios.get(`https://different-bell-bottoms-fox.cyclic.app/quickdeal`,param).then((res)=>{
      
     dispatch(getProductSuccess(res.data))
     console.log(res.data)
@@ -28,6 +28,11 @@ export const getProduct=(param) =>(dispatch)=>{
     })
 
 }
+export const getSingleProduct=(id) =>(dispatch)=>{
+    axios.get(`https://different-bell-bottoms-fox.cyclic.app/quickdeal/${id}`).then((res)=>{
+    dispatch(getProductSuccess(res.data))
+    })
 
+}
 
 

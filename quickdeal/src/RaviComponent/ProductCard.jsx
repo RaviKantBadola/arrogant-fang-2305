@@ -3,6 +3,10 @@
 import React from 'react'
 
 import { Card,CardBody,Image,Stack,Heading,Text,Divider,CardFooter,ButtonGroup,Button } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
+
+
+
 const ProductCard = ({product}) => {
   return (
     // <div  style={{border:"1px solid grey",padding:"5px",width:"200px"}}>
@@ -36,9 +40,14 @@ const ProductCard = ({product}) => {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
+    <Link to={`/singleproducts/${product.id}`}>
       <Button variant='solid' colorScheme='blue'>
+   
         View Now
+       
+       
       </Button>
+      </Link>
       <Button variant='ghost' colorScheme='blue'>
    Buy Now
       </Button>
