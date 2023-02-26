@@ -11,9 +11,9 @@ function AllRoutes() {
   
   </Routes>
 
-  
-    
-    
+  </div>
 
+    
+}  
 
 
