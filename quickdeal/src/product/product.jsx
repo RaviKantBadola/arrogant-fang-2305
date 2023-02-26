@@ -54,6 +54,42 @@ function Product() {
                         <p>Description write herehkjdlkjgmlh;lgjh   ghjukjjhk</p>
                     </div>
 
+                    <div className="fourdetailbox">
+                        Buyer Guidelines
+                        <div className="arroall">
+                            <p><ArrowRightIcon></ArrowRightIcon> Be careful when paying offline</p>
+                            <p><ArrowRightIcon></ArrowRightIcon> Beware of ads with unrealistic prices, lookalikes or clone products</p>
+                            <p><ArrowRightIcon></ArrowRightIcon> Chat and ask questions to be clear on product details</p>
+                            <p><ArrowRightIcon></ArrowRightIcon> Do not deposit/transfer money to bank or any third party payment gateways without verifying the credentials</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="detail">
+                    <div className="twobuttonadd">
+                        <h1 className="enterdetail">Enter your Details </h1>
+                        <form className="formfill">
+                            <input type="text" placeholder="Enter Your Email" />
+                            <input type="text" placeholder="Full Name" />
+                            <input type="text" placeholder="Contact Number" />
+                            <input type="text" placeholder="Departure City" />
+                            <input type="date" />
+                        </form>
+                        <div className="amt">
+                            <h2>Amount</h2>
+                            <h2>Rs.00000</h2>
+                        </div>
+                        <p className="tac">Tax and discount are calculated at checkout </p>
+                        <button className="btnsubtop" type="submit" >Next <ArrowForwardIcon></ArrowForwardIcon></button>
+                    </div>
+                    <div className="imgcontact">
+                        <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-get-all-details-2x.png" alt="" />
+                        <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-schedule-visit-bazaar-2x.png" alt="" />
+                        <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-negotiate-2x.png" alt="" />
+                    </div>
+
+
                     <div className="threemainbox">
                         Posted By
                         <form action='https://getform.io/f/93499645-a07a-4eff-b445-558f862088f6'
@@ -84,40 +120,6 @@ function Product() {
                         </form>
                     </div>
 
-                    <div className="fourdetailbox">
-                        Buyer Guidelines
-                        <div className="arroall">
-                            <p><ArrowRightIcon></ArrowRightIcon> Be careful when paying offline</p>
-                            <p><ArrowRightIcon></ArrowRightIcon> Beware of ads with unrealistic prices, lookalikes or clone products</p>
-                            <p><ArrowRightIcon></ArrowRightIcon> Chat and ask questions to be clear on product details</p>
-                            <p><ArrowRightIcon></ArrowRightIcon> Do not deposit/transfer money to bank or any third party payment gateways without verifying the credentials</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div className="detail">
-                    <div className="twobuttonadd">
-                        <h1 className="enterdetail">Enter your Details </h1>
-                        <form className="formfill">
-                            <input type="text" placeholder="Enter Your Email" />
-                            <input type="text" placeholder="Full Name" />
-                            <input type="text" placeholder="Contact Number" />
-                            <input type="text" placeholder="Departure City" />
-                            <input type="date" />
-                        </form>
-                        <div className="amt">
-                            <h2>Amount</h2>
-                            <h2>Rs.00000</h2>
-                        </div>
-                        <p className="tac">Tax and discount are calculated at checkout </p>
-                        <button className="btnsub" type="submit" >Next <ArrowForwardIcon></ArrowForwardIcon></button>
-                    </div>
-                    <div className="imgcontact">
-                        <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-get-all-details-2x.png" alt="" />
-                        <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-schedule-visit-bazaar-2x.png" alt="" />
-                        <img src="https://teja9.kuikr.com/core/clsfd/assets/ic-negotiate-2x.png" alt="" />
-                    </div>
 
                 </div>
 
