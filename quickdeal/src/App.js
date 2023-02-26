@@ -13,8 +13,6 @@ function App() {
 
     <div className="App" style={{width:"80%",margin:"auto",height:"auto"}}>
 
-      
-
 
     </div>
  
