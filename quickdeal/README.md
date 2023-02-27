@@ -18,6 +18,9 @@ HomePage
  ![image](https://user-images.githubusercontent.com/107898767/221489512-d36c8038-8437-47d9-9e32-ae2fbae79f79.png)
  Product Page
  ![image](https://user-images.githubusercontent.com/107898767/221489692-216939cb-3ea7-4a33-bf1d-dab9f166ceed.png)
+ Single Page
+ ![image](https://user-images.githubusercontent.com/107898767/221489998-f1d3c55e-45ed-4630-893e-4b3a0c2e942f.png)
+
  
  
 
