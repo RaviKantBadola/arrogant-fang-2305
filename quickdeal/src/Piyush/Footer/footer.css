@@ -26,7 +26,7 @@
     
 }
 .p_footer_left{
-    /* border: 1px solid gold; */
+   
     float: left;
     width: 63%;
     height: 300px; 
@@ -43,7 +43,7 @@
     list-style: none;
 
     margin-left:-40px;
-    /* border: 1px solid red; */
+  
 }
 
 .p_p_aboutus{
@@ -62,8 +62,7 @@
 .p_footer-links{
     margin-top: 10px;
     display: flex;
-    /* border: 1px solid blue; */
-    /* margin: auto; */
+  
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
@@ -74,8 +73,7 @@
     font-size: 14px;
     margin-top: 15px;
     display: flex;
-    /* border: 1px solid blue; */
-    /* margin: auto; */
+   
     align-items: center;
     justify-content: space-between;
 
@@ -84,7 +82,7 @@
     display: flex;
     background: #f8f8f8;
  
-    /* border: 1px solid grey; */
+ 
     height: 38px;
     width: 560px;
 }
@@ -112,7 +110,7 @@
 }
 
 .p_footer_right{
-/* border: 1px solid green; */
+
 margin-left: 15px;
 
 }
@@ -120,7 +118,7 @@ margin-left: 15px;
 .p_footer_right2{
     display: flex;
     list-style: none;
-    /* border: 1px solid magenta; */
+   
 }
 
 .p_footer_right2 ul , a{
@@ -131,13 +129,13 @@ margin-left: 15px;
     
 }
 .p_footer_right2  ul    {
-   /* border: 1px solid red; */
+ 
    text-align: left;
-   /* margin-left: -40px; */
+
     margin-right: 50px;   
 }
 .p_footer_right2  a    {
-    /* border: 1px solid red; */
+  
     text-align: left;
     
  }

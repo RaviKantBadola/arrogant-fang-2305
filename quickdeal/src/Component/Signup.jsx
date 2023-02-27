@@ -61,7 +61,7 @@ const Signup = () => {
       
       SignUpPost(formData)
       setFormData(obj);
-      // SignUpData(formData)
+     
       console.log(formData, "signUp")
       toast({
         title: "Account Created",

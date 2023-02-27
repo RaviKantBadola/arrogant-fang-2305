@@ -9,18 +9,7 @@ import { Link } from 'react-router-dom'
 
 const ProductCard = ({product}) => {
   return (
-    // <div  style={{border:"1px solid grey",padding:"5px",width:"200px"}}>
-    //   <Link to={`/product/${product.id}`}>
-    //   <img  src={product.image} alt={product.title} style={{marginLeft:"auto",marginRight:"auto"}}/>
-    //   </Link>
-     
-    //  <p>{product.description}</p>
-    //  <p>{ `₹${product.price}`}</p>
-    //  <Link to={`/edit/${product.item_id}`}>
-    //  <button>Edit</button>
-    //  </Link>
-    
-    // </div>
+  
    
     <Card maxW='sm'>
   <CardBody>

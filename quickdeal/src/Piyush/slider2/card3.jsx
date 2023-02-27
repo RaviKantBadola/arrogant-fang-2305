@@ -134,13 +134,12 @@ const Card3 = () => {
 
 
 
-                {/* caroual start */}
+              
                 <Box w={{ base: '100%', md: '100%', lg: '100%' }} width={"100%"} height="310px" margin="auto " mt="10px"  >
                     <Carousel responsive={responsive}
                         swipeable={false}
                         draggable={false}
-                        //    infinite={true}
-                        //    autoPlay={true}
+                       
                         keyBoardControl={true}
                         slidesToSlide={1}
                         dotListClass="custom-dot-list-style"
@@ -182,7 +181,7 @@ const Card3 = () => {
                         }
                     </Carousel>
                 </Box>
-                {/* carousel end  */}
+             
 
 
 

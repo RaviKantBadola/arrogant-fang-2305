@@ -1,7 +1,7 @@
 .detailpage {
     
     display: flex;
-    /* grid-template-columns: repeat(2, 1fr); */
+
     width: 80%;
     margin: auto;
     
@@ -9,7 +9,7 @@
 
 .imagebox {
     width: 80%;
-    /* border: 2px solid red; */
+  
 }
 
 .image {
@@ -19,12 +19,11 @@
 .detail {
     width: 80%;
 
-    /* border: 2px solid red; */
 }
 
 .imgcontact {
     width: 60%;
-    /* border: 2px solid red; */
+
     display: flex;
     margin: auto;
     margin-top: 30px;
@@ -38,7 +37,7 @@
 
 .twobuttonadd {
     width: 90%;
-    /* border: 2px solid rgb(23, 23, 202); */
+  
     justify-content: space-between;
     margin: auto;
     margin-top: 20px;
@@ -61,7 +60,7 @@
 
 .formfill {
     width: 100%;
-    /* border: 2px solid red; */
+  
     display: grid;
     margin: auto;
     gap: 10px;
@@ -79,7 +78,7 @@
 .amt {
     display: flex;
     justify-content: space-around;
-    /* border: 2px solid red; */
+   
     margin-top: 10px;
 }
 
@@ -96,14 +95,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 20px;
-    /* border: 2px solid red; */
+   
     gap: 10px;
 }
 
 .boxone {
     display: flex;
     margin-left: 5%;
-    /* border: 2px solid red;  */
+
 
 }
 
@@ -137,11 +136,11 @@
     color: black;
     font: bold;
     font-size: 25px;
-    /* border: 2px solid red;    */
+ 
 }
 
 .secmainbox>p {
-    /* border: 2px solid red;   */
+ 
     width: 80%;
     text-align: start;
     color: rgb(59, 59, 59);
@@ -162,13 +161,13 @@
 .formdetail {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* border: 2px solid rgb(67, 42, 42); */
+ 
     width: 90%;
     font-size: 15px;
     margin: auto;
     margin-top: 20px;
     gap: 10px;
-    /* border: 2px solid red; */
+   
     
 }
 
@@ -178,7 +177,7 @@
 }
 .btnsubtop {
     width: 100%;
-    /* border: 2px solid red; */
+  
     margin-top: 10px;
     background-color: rgb(64, 64, 223);
     text-align: center;
@@ -218,7 +217,7 @@
     display: grid;
     text-align: start;
     grid-template-columns: repeat(1, 1fr);
-    /* border: 2px solid red;  */
+   
     margin-top: 30px;
 
     font: bold;
@@ -244,9 +243,9 @@ display: grid;
 .bottomallcard{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    /* border: 2px solid red; */
+
     margin-top: 30px;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
+    
 }
 .boxonebot{
     display: grid;
@@ -278,7 +277,7 @@ display: grid;
 .boxtwoesecbot{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    /* border: 2px solid red; */
+ 
     margin-top: 40px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }

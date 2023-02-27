@@ -19,7 +19,7 @@ import {
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 import { useLocation, useNavigate } from "react-router-dom";
-// import Logo from "./lens.png";
+
 import { Link as Routerlink } from "react-router-dom";
 import React from "react";
 const Links = [
@@ -48,7 +48,7 @@ function AdminNav() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const navigate = useNavigate();
   const location = useLocation();
-  // console.log(location);
+
   const handleSearch = (e) => {
     if (e.key === "Enter" || e.keyCode === 13) {
       localStorage.setItem("search_term", e.target.value);
@@ -71,15 +71,7 @@ function AdminNav() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-            {/* <Box>
-              <Image
-                src={Logo}
-                w="130px"
-                m="auto"
-                _hover={{ cursor: "pointer" }}
-                onClick={() => navigate("/")}
-              />
-            </Box> */}
+           
             <HStack
               as={"nav"}
               spacing={4}

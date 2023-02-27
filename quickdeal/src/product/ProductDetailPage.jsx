@@ -152,7 +152,7 @@ function Product() {
                 </div>
 
             </div>
-            {/* Botttom part start here */}
+        
             <div className="bottomallcard">
                 <h1 className="simbt">Similar Ads</h1>
                 <div className="boxonebot">

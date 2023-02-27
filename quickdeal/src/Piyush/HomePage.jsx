@@ -28,9 +28,7 @@ const responsive = {
     items: 1
   }
 };
-// https://teja10.kuikr.com/escrow/assets/image/quikrBazaar/MT_links_bg.png
-//https://teja10.kuikr.com/escrow/assets/image/quikrBazaar/HL_links_bg.png
-//https://teja10.kuikr.com/escrow/assets/image/quikrBazaar/EL_links_bg.png
+
 function HomePage() {
 
   return (

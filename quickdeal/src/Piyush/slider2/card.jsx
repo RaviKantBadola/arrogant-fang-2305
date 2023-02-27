@@ -1,14 +1,14 @@
 import Carousel from "react-multi-carousel";
-import axios from "axios"
+
 import "./cardstyle.css"
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import "react-multi-carousel/lib/styles.css";
-import { useState, useEffect } from "react"
+
 import React from 'react'
-import { NavLink } from "react-router-dom";
-import { WrapItem } from "@chakra-ui/react";
+
+
 import { Button } from "@chakra-ui/react";
-import { BiChevronRight } from "react-icons/bi";
+
 const responsive = {
 
     desktop: {
@@ -288,13 +288,12 @@ const Card = () => {
 
 
 
-                {/* caroual start */}
+             
                 <Box w={{ base: '100%', md: '100%', lg: '100%' }} width={"100%"} height="310px" margin="auto " mt="10px"   >
                     <Carousel responsive={responsive}
                         swipeable={false}
                         draggable={false}
-                        //    infinite={true}
-                        //    autoPlay={true}
+                      
                         keyBoardControl={true}
                         slidesToSlide={1}
                         dotListClass="custom-dot-list-style"
@@ -337,7 +336,7 @@ const Card = () => {
                         }
                     </Carousel>
                 </Box>
-                {/* carousel end  */}
+               
 
 
 

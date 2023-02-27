@@ -48,7 +48,7 @@ const accountinitialvalues={
       
       const handleSelectChange = (e)=>{
                if(e.target.value == "profile"){
-              //  navigate("/profile")
+         
                }else if (e.target.value == "logout"){
                dispatch(actionIsAuth())
                }
@@ -146,7 +146,6 @@ const handleClose=()=>{
             
         </Box>
 
-        {/* login form------- */}
           { account.view==="login" ?
           <Box style={{height:"100%",width:"60%",padding:"40px 35px",textAlign:"center"}}>
           <Input variant="flushed" placeholder="Enter Email/Mobile Number" style={{marginTop:20}} isRequired type="email" name="email" value={email} onChange={handleChange}/>
@@ -158,7 +157,7 @@ const handleClose=()=>{
             <p style={{marginTop:20,padding:"5px",fontSize:14,color:"#2874f0"}} onClick={()=>toggleSignup()}>New to QuickDeal? Create an account</p>
           </Box>
           : 
-          // sign up form
+       
           <Signup/>
           
           }

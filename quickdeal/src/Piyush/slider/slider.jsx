@@ -2,14 +2,14 @@ import React from 'react'
 import "./slider.css"
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 
 
-// import required modules
+
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import { Link } from 'react-router-dom';
 let sliderArrary = [

@@ -7,9 +7,9 @@ import Products from "../RaviComponent/Products"
 
 
 function AllRoutes() {
-  return <div>{/* Add Home, Login and dashboard  */}
+  return <div>
    <Routes>
-     <Route path = "/" element ={<HomePage/>} ></Route>
+     <Route path="/" element ={<HomePage/>} ></Route>
     <Route path="/Signup" element={<Signup/>}/>
     <Route path="/login" element={<LoginDialog/>} />
      <Route path="/products" element={<Products/>}/>
