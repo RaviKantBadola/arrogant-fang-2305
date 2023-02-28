@@ -19,7 +19,7 @@ IA-	Vivek Goswami
 
 Project Name: arrogant-fang-2305 website- https://www.quikr.com/bazaar
  deployed Link 
- https://quickdealcw.netlify.app/products
+ https://quickdealcw.netlify.app/
 
 HomePage
  ![image](https://user-images.githubusercontent.com/107898767/221489456-7e7b927b-102d-4fbc-87bf-f7730b55d179.png)
