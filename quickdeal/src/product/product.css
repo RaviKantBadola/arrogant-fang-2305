@@ -1,10 +1,10 @@
 .detailpage {
-    /* border: 2px solid red; */
+    
     display: flex;
     /* grid-template-columns: repeat(2, 1fr); */
     width: 80%;
     margin: auto;
-    margin-top: 30px;
+    
 }
 
 .imagebox {
@@ -42,7 +42,7 @@
     justify-content: space-between;
     margin: auto;
     margin-top: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  border: 1px solid grey;
     padding: 5%;
 }
 
@@ -72,7 +72,8 @@
 }
 
 .formfill>input {
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   border: 1px solid grey;
+   text-align: center;
 }
 
 .amt {
@@ -151,7 +152,7 @@
 .threemainbox {
     text-align: center;
     margin-top: 40px;
-    /* border: 2px solid red;  */
+    border: 1px solid grey;  
     color: black;
     font: bold;
     font-size: 25px;
@@ -168,11 +169,12 @@
     margin-top: 20px;
     gap: 10px;
     /* border: 2px solid red; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
 }
 
 .formdetail>input {
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border:1px solid grey;
+  
 }
 .btnsubtop {
     width: 100%;
@@ -186,7 +188,7 @@
 }
 .btnsubtop:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border: 2px solid red;
+ 
 }
 .btnsub {
     background-color: rgb(40, 40, 197);
@@ -197,7 +199,7 @@
 }
 .btnsub:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border: 2px solid red;
+  
 }
 
 .chathere {

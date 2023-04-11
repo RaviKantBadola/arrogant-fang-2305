@@ -1,7 +1,8 @@
 #P_HompageContainer{
   max-width: 80%;
   margin: auto;
-  /* border: 1px solid blue; */
+
+  padding-top: 80px;
 }
 .P_div_Title{
  

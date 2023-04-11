@@ -16,20 +16,20 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-<<<<<<< HEAD
+
     "react-multi-carousel": "^2.8.2",
-=======
->>>>>>> c8b5af113318aba047b61f49ceeae02798ceaf0f
+
+
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
-<<<<<<< HEAD
+
     "swiper": "^9.0.5",
-=======
+
     "styled-components": "^5.3.6",
->>>>>>> c8b5af113318aba047b61f49ceeae02798ceaf0f
+
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -8,14 +8,17 @@ import LoginButton from './LoginButton';
 const Navber = () => {
   return (
          <Flex
-         w = {"80%"} h = {"70px"} 
+         w = {"65%"} h = {"70px"} 
          m = "auto" 
          justifyContent = "space-between" 
          alignItems={"center"}
          position={"fixed"}
-         left = {"10%"}
+         left = {"8%"}
          zIndex = {"2"}
-        boxShadow = {"rgba(0, 0, 0, 0.24) 0px 3px 8px"}
+        boxShadow = {""}
+        backgroundColor="white"
+      marginLeft={"10%"}
+       
           >
         <Box>
           <Image w={"185px"} h={"69px"} src="https://i.postimg.cc/wjVc8Xj4/quick.jpg" alt="quickdeal" ></Image>
@@ -24,9 +27,9 @@ const Navber = () => {
          <Flex border='1px' borderColor='blue' w = {"35%"} h = "40px"   >
          
             <Select h={"35px"} w = {"35%"} fontSize="14px" border = "none" borderRadius={"0"} borderRight = "1px" borderColor={"gray"} placeholder='All Categories'>
-                   <option value='option1'>Option 1</option>
-                   <option value='option2'>Option 2</option>
-                   <option value='option3'>Option 3</option>
+                   <option value='option1'>Electronic</option>
+                   <option value='option2'>Furniture</option>
+                   <option value='option3'>Mobiles</option>
             </Select> 
  
             <Input w = {"65%"} fontSize="14px" border = "none" placeholder='Search in All India'  ></Input> 
@@ -35,7 +38,7 @@ const Navber = () => {
             </Flex>
              <Flex justifyContent={"space-between"}   w = {"30%"} h = "40px" alignItems="center" >
              <Flex   alignItems="center" ><BsCart3   /> <Button bg={"transparent"} w ={"15px"} >Cart</Button></Flex>
-             <Flex   justifyContent={'space-between'} alignItems="center"   ><VscAccount size={"23px"}  /> <LoginButton/> </Flex>
+             <Flex  textDecoration={"none"} justifyContent={'space-between'} alignItems="center"   ><VscAccount size={"23px"}  /> <LoginButton/> </Flex>
              <Button border= "1px solid sky" w = {"110px"} h = {"40px"} bg = "#FCEC52" >Post Free Ad</Button>
              </Flex>
          </Flex>

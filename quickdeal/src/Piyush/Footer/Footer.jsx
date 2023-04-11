@@ -3,10 +3,12 @@ import "./footer.css"
 import img from "../Footer/footer.png"
 const Footer = () => {
     return (
-        <div className='p_footer'>
+        <div className='p_footer' >
+            
             <div className='p_footer_2div'>
                 <div className='p_footer_left'>
                    <div  className="p_footer_adiv">
+                    
                    <ul style={{ display: "flex" }}>
                         <li>
                             <a href="">About Us</a>
@@ -56,7 +58,7 @@ const Footer = () => {
                         <a href="">News</a>
                     </div>
                     <div className="p_footer-links2" >
-                        <p style ={{fontSize:"14px"}}>Other Brands: Commonfloor</p>
+                        <p style ={{fontSize:"12px"}}>Other Brands: Commonfloor</p>
                         
                         <a href=""  style ={{marginLeft:"-80px"}} >Hiree</a>
                         <a href="" > Dazzlr</a>

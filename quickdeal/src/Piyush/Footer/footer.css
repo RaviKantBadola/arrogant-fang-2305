@@ -5,11 +5,12 @@
     padding-bottom: 10px;
     position: relative;
     height: 351px;
-    width: 1519px;
+    width: 100%;
     margin-top: 50px;
     display: flex;
     margin-bottom: 20px;
-    
+   
+
 }
 
 .p_footer_2div{
@@ -34,8 +35,9 @@
 }
 
 .p_footer_left ul{
-    /* border: 1px solid red; */
+
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .p_footer_left li {
     list-style: none;
@@ -81,10 +83,10 @@
 .p_footer_buttondiv{
     display: flex;
     background: #f8f8f8;
-    padding: 15px;
+ 
     /* border: 1px solid grey; */
     height: 38px;
-    width: 760px;
+    width: 560px;
 }
 .p_footer_adiv{
     height: 130px;
@@ -92,9 +94,10 @@
 .p_footer_buttondiv p{
     width: 385px;
     height: 18px;
-    margin-top: 10px;
+    padding-top: 10px;
+  
     font-size: 14px;
-    /* border: 1px solid red; */
+
     color: #212d39 
 }
 
@@ -136,5 +139,5 @@ margin-left: 15px;
 .p_footer_right2  a    {
     /* border: 1px solid red; */
     text-align: left;
-    margin-left: -40px;
+    
  }

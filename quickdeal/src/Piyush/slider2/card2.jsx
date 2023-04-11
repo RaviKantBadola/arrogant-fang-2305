@@ -13,7 +13,7 @@ const responsive = {
 
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 6
+        items: 5
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -346,7 +346,7 @@ const Card2 = () => {
    
     return (
         <>
-            <Box display={"flex"} mt="20px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"} backgroundColor={"white"} display={"block"} height="min-content" h="406px" >
+            <Box display={"flex,block"} mt="20px" boxShadow={"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"} backgroundColor={"white"}  height="min-content" h="406px" >
 
                 <Flex textAlign={"center"} justifyContent={'space-between'} pl="10px" h="40px">
 
@@ -363,7 +363,7 @@ const Card2 = () => {
 
 
                 {/* caroual start */}
-                <Box w={{ base: '60%', md: '55%', lg: '70%' }} width={"100%"} height="310px" margin="auto " mt="10px"  >
+                <Box w={{ base: '100%', md: '100%', lg: '100%' }} width={"100%"} height="310px" margin="auto " mt="10px"  >
                     <Carousel responsive={responsive}
                         swipeable={false}
                         draggable={false}

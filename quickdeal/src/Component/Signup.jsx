@@ -65,7 +65,7 @@ const Signup = () => {
       console.log(formData, "signUp")
       toast({
         title: "Account Created",
-        description: "Welcome to WishCart",
+        description: "Welcome to QuickDeal",
         status: 'success',
         duration: 1000,
         isClosable: true,

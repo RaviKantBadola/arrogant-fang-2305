@@ -21,14 +21,9 @@ li.carousel-item{
      background: #008ff8  !important;
 }
 
-.react-multi-carousel-track{
-    /* border: 1px solid red; */
-    
-}
 
-. :hover{
-    border: 1px solid #008bcf;
-}
+
+
 
 button:hover{
     background-color: #008bcf;

@@ -1,5 +1,11 @@
-import React from 'react'
-import { legacy_createStore } from 'redux'
-import reducer from './reducer'
 
- export const store = legacy_createStore(reducer)
+import reducer from "./reducer"
+
+
+ import {applyMiddleware, combineReducers, legacy_createStore} from "redux"
+ import{ reducer as product} from "../RaviComponent/Products-Redux/reducer"
+ import thunk from "redux-thunk"
+ const rootReducer = combineReducers({
+     product,reducer
+ })
+ export const store = legacy_createStore(rootReducer,applyMiddleware(thunk))
